@@ -38,12 +38,17 @@ iframe {
     border-radius: 30px;
 }
 
-button {
+#fernButton {
     display: block;
     border-radius: 5px;
     font-family: "Inter", sans-serif;
     justify-self: center;
-    margin-top: 5px;
+    margin-top: 10px;
+}
+
+#fernButton:hover {
+    background-color: black;
+    color: whitesmoke;
 }
 
 nav {
@@ -71,6 +76,7 @@ nav ul li a {
 
 footer {
     text-align: center;
+    margin-top: 5px;
 }
 
 #portfolio ul {
